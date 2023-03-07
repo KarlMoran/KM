@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #00b4d8;
+    height: 120px;
+}
+
+.km-logo {
+    height: 175px;
+    width: 175px;
+    margin-left: -10px;
+}
+
+.nav-item {
+    font-size: 20px;
+    margin: 5px;
+}
+
+@media screen and (max-width: 990px) {
+    .navbar-toggler {
+        position: static;
+        margin-top: -60px;
+    }
+
+    .km-logo {
+        margin-top: -40px;
+    }
+  }
