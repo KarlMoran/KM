@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #00b4d8;
+    background-color: #74c69d;
     height: 120px;
 }
 
@@ -9,9 +9,63 @@
     margin-left: -10px;
 }
 
+.km-main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-text {
+    text-align: center;
+    font-size: 50px;
+    color: #000000;
+    margin-top: -120px;
+    font-family: 'Blinker', sans-serif;
+}
+
 .nav-item {
     font-size: 20px;
     margin: 5px;
+}
+
+.navbar-nav li a {
+    text-align: right;
+}
+
+/* .box {
+    border: rgb(182, 181, 181) 2px solid;
+    padding: 10px;
+    width: 550px;
+    margin: 20px;
+    background-color:rgb(182, 181, 181);
+    justify-items: center;
+}
+
+.hero-text {
+    margin-top: 25px;
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 90px;
+    color: #001d3d;
+}
+
+p {
+    font-size: 30px;
+    color: #001d3d;
+    width: 400px;
+    margin-left: 25px;
+} */
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 @media screen and (max-width: 990px) {
@@ -23,4 +77,4 @@
     .km-logo {
         margin-top: -40px;
     }
-  }
+}
