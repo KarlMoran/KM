@@ -1,6 +1,16 @@
+/* Nave bar */
 .navbar {
     background-color: #74c69d;
     height: 120px;
+}
+
+.nav-item {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.navbar-nav li a {
+    text-align: right;
 }
 
 .km-logo {
@@ -8,6 +18,8 @@
     width: 175px;
     margin-left: -10px;
 }
+
+/* Hero Image */
 
 .km-main {
     display: block;
@@ -23,14 +35,6 @@
     font-family: 'Blinker', sans-serif;
 }
 
-.nav-item {
-    font-size: 20px;
-    margin: 5px;
-}
-
-.navbar-nav li a {
-    text-align: right;
-}
 
 /* .box {
     border: rgb(182, 181, 181) 2px solid;
@@ -56,6 +60,8 @@ p {
     margin-left: 25px;
 } */
 
+/* Hero video */
+
 #background-video {
     width: 100vw;
     height: 100vh;
@@ -68,6 +74,8 @@ p {
     z-index: -1;
 }
 
+/* About-section  */
+
 .sub-section {
     display: flex;
     justify-content: space-around;
@@ -79,6 +87,8 @@ p {
     font-size: 20px;
     width: 550px;
 }
+
+/* About-profile-image */
 
 .headshot {
     width: 400px;
@@ -107,16 +117,15 @@ p {
     align-items: center;
 }
 
+/* portfolio card */
+
 .card {
     /* border: #000 solid 3px; */
     /* padding: 50px; */
     margin: 50px;
 }
 
-.lb {
-    width: 336px;
-    margin-left: -15px;
-}
+/* media screen */
 
 @media screen and (max-width: 990px) {
     .navbar-toggler {
