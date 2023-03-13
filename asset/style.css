@@ -108,9 +108,14 @@ p {
 }
 
 .card {
-    border: #000 solid 2px;
+    /* border: #000 solid 3px; */
     /* padding: 50px; */
     margin: 50px;
+}
+
+.lb {
+    width: 336px;
+    margin-left: -15px;
 }
 
 @media screen and (max-width: 990px) {
