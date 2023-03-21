@@ -238,6 +238,40 @@ ul.social {
     margin:  15px;
 }
 
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:  150px;
+}
+
+.box {
+    background-color: white;
+    padding: 4em 3em;
+}
+
+svg {
+    height: 150px;
+    width: 150px;
+}
+
+svg circle{
+    fill: none;
+    stroke: #74c69d;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    animation: circle 2s forwards;
+}
+
+@keyframes circle {
+    to {
+        stroke-dashoffset: 10;
+    }
+}
+
 
 
   
