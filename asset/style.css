@@ -238,7 +238,7 @@ ul.social {
     margin:  15px;
 }
 
-.circle {
+.circle-area {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -246,8 +246,16 @@ ul.social {
 }
 
 .box {
-    background-color: white;
-    padding: 4em 3em;
+    /* background-color: #f5f0f0;
+    padding: 3em 3em;
+    position: relative;
+    border-radius: 20px; */
+    margin: auto;
+}
+
+.percentage {
+    position: relative;
+    justify-content: space-between;
 }
 
 svg {
@@ -261,19 +269,137 @@ svg circle{
     stroke-width: 10px;
     stroke-linecap: round;
     transform: translate(5px, 5px);
-    stroke-dasharray: 440;
-    stroke-dashoffset: 440;
+    stroke-dasharray: 550;
+    stroke-dashoffset: 550;
     animation: circle 2s forwards;
 }
 
-@keyframes circle {
-    to {
-        stroke-dashoffset: 10;
-    }
+svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #d3d6d5;
+    animation: 0;
+}
+
+svg circle:nth-child(2){
+    animation: circle 2s forwards;
+}
+
+svg.team {
+    height: 150px;
+    width: 150px;
+}
+
+svg.team circle{
+    fill: none;
+    stroke: #74c69d;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: circle 2s forwards;
+}
+
+svg.team circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #d3d6d5;
+    animation: 0;
+}
+
+svg.team circle:nth-child(2){
+    animation: circle 2s forwards;
 }
 
 
+svg.communication {
+    height: 150px;
+    width: 150px;
+}
 
+svg.communication circle{
+    fill: none;
+    stroke: #74c69d;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 570;
+    stroke-dashoffset: 570;
+    animation: circle 2s forwards;
+}
+
+svg.communication circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #d3d6d5;
+    animation: 0;
+}
+
+svg.communication circle:nth-child(2){
+    animation: circle 2s forwards;
+}
+
+
+svg.project {
+    height: 150px;
+    width: 150px;
+}
+
+svg.project circle{
+    fill: none;
+    stroke: #74c69d;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 550;
+    stroke-dashoffset: 550;
+    animation: circle 2s forwards;
+}
+
+svg.project circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #d3d6d5;
+    animation: 0;
+}
+
+svg.project circle:nth-child(2){
+    animation: circle 2s forwards;
+}
+
+
+@keyframes circle {
+    to {
+        stroke-dashoffset: 220;
+    }
+}
+
+span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    font-size: 2em;
+    font-weight: 400;
+    color: #74c69d;
+}
+
+.professional {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.center {
+    position: relative;
+    left: 30%;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+section.circle-area {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
   
 
 
