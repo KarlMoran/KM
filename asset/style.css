@@ -417,10 +417,29 @@ section.circle-area {
     .navbar-toggler {
         position: static;
         margin-top: -60px;
+        background-color: transparent;
     }
+
+    /* .navbar-toggler {
+        display: inline;
+        border: 0;
+        background-color: transparent;
+        font-size: 30px;
+        align-self: flex-end;
+    } */
 
     .km-logo {
         margin-top: -40px;
+    }
+
+    section.circle-area {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    h1.center {
+        display: flex;
+        font-size: x-large;
     }
 }
 
