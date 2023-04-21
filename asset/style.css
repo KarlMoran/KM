@@ -92,7 +92,8 @@ ul.social {
     justify-content: space-around;
     padding: 80px;
     color: #000000;
-    /* height: 500px; */
+    position: relative;
+    top: 100px
 }
 
 .about-info {
